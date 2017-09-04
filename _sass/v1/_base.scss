@@ -1,0 +1,163 @@
+/**
+ * Reset some basic elements
+ */
+// body, h1, h2, h3, h4, h5, h6,
+// p, blockquote, pre, hr,
+// dl, dd, ol, ul, figure {
+//   margin: 0;
+//   padding: 0;
+// }
+
+/**
+ * For identifying overflow issues, delete for production
+ */
+// * {
+//     outline: 1px solid tomato;
+//     opacity: 1 !important;
+//     visibility: visible !important;
+// }
+
+/**
+ * Basic styling
+ */
+ html {
+   height: 100%;
+   box-sizing: border-box;
+ }
+
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  position: relative;
+  min-height: 100%;
+}
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+
+
+/**
+ * Links
+ */
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($brand-color, 1%);
+  }
+
+  &:hover {
+    color: darken($brand-color, 10%);
+    border-bottom: 2px solid;
+    padding-bottom: 4px;
+  }
+
+}
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  @include relative-font-size(0.9375);
+  background-color: #fff;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+/**
+ * Odds and Ends
+ */
+.body-max {
+  max-width: 1440px;
+}
+
+.browser {
+  overflow: hidden;
+  border: 2px solid $grey-color-light;
+  padding-top: $spacing-unit;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  background-color: $grey-color-light;
+
+  &::before {
+    content: "● ● ●";
+    left: 10px;
+    position: absolute;
+    top: 14px;
+    display: block;
+    font-size: $base-font-size;
+    line-height: 0;
+    color: $grey-color;
+  }
+}
+
+.gradient {
+  font-weight: bold;
+  background: linear-gradient(90deg, #24735C, #04403A 30%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
