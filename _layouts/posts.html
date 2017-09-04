@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="w-100 center">
+
+  {{ content }}
+
+  <h1 class="f2 f1-m f-headline-l gradient">Posts</h1>
+
+  <ul class="list pl0">
+    {% for post in site.posts %}
+      {% if post.projects != 'projects' %}
+      <li class="pv3 pv4-ns bt b--black-10">
+        {% assign date_format = site.v1.date_format | default: "%B %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+</div>
