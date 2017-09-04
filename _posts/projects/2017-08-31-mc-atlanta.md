@@ -1,0 +1,71 @@
+---
+title: Guide to Atlanta
+description: Project - MailChimp
+layout: project
+categories: projects
+author: Aaron A. Rich
+date:   2017-08-27
+projects: projects
+permalink: /projects/mailchimp-atlanta/
+order: 2
+---
+
+<div class="fl w-100 w-25-l mt0-l mt3">
+  <dl class="lh-title mt0">
+    <dt class="f6 b">Project Role</dt>
+    <dd class="ml0">Developer</dd>
+
+    <dt class="f6 b mt3">Art Direction</dt>
+    <dd class="ml0"><a href="https://dribbble.com/MarcoSuarez">Marco Suarez</a></dd>
+
+    <dt class="f6 b mt3">Design</dt>
+    <dd class="ml0"><a href="http://davidsizemoredesign.com/">David Sizemore</a></dd>
+  </dl>
+</div>
+
+<div class="fr w-100 w-75-l mb0-l mb3">
+  This site was built as part of a MailChimp recruitment effort to attract talent from outside Atlanta. It provides a high level guide to in-town neighborhoods, annual events and attractions, volunteer opportunities, and employee recommendations for food/fun.
+  <br>
+  <br>
+  <dl class="lh-title mv2">
+    <dt class="dib b">Built with:</dt>
+    <dd class="dib ml0">Middleman, HAML, SCSS, and JavaScript</dd>
+  </dl>
+
+  <dl class="lh-title mv2">
+    <dt class="dib b">Link:</dt>
+    <dd class="dib ml0"><a href="https://mailchimp.com/atlanta">mailchimp.com/atlanta</a></dd>
+  </dl>  
+</div>
+
+<div class="fl pv3 pv3-ns">
+
+  <div class="fl-ns w-100 mv3 browser">
+    <img src="{{ site.url }}/assets/mc_atlanta/1.jpg" class="w-100"/>
+  </div>
+
+</div>
+
+<div class="fl pv3 pv3-ns">
+
+  <div class="fl-ns w-100 w-100 mv3 browser">
+    <img src="{{ site.url }}/assets/mc_atlanta/2.jpg" class="w-100"/>
+  </div>
+
+</div>
+
+<div class="fl pv3 pv3-ns">
+
+  <div class="fl-ns w-100 w-100 mv3 browser">
+    <img src="{{ site.url }}/assets/mc_atlanta/3.jpg" class="w-100"/>
+  </div>
+
+</div>
+
+<div class="fl pv3 pv3-ns">
+
+  <div class="fl-ns w-100 w-100 mv3 browser">
+    <img src="{{ site.url }}/assets/mc_atlanta/4.jpg" class="w-100"/>
+  </div>
+
+</div>
