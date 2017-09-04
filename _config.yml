@@ -17,7 +17,7 @@ title: Aaron A. Rich
 description:
   Front-End Developer working in Atlanta, GA - Specializing in building websites and consulting for small businesses.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dev.aaronarich.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://aaronarich.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:year/:month/:title/
 author: Aaron A. Rich
 social:
