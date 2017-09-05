@@ -36,7 +36,7 @@ order: 1
 <div class="fl pv3 pv3-ns">
 
   <div class="fr-ns w-100 ml3-l mv3 browser">
-    <img src="{{ site.url }}/assets/mc_holiday_survey/1.jpg" class="w-100"/>
+    <img alt="Screenshot of the MailChimp Holiday Survey website" src="{{ site.url }}/assets/mc_holiday_survey/1.jpg" class="w-100"/>
   </div>
 
 </div>
@@ -44,7 +44,7 @@ order: 1
 <div class="fl pv3 pv3-ns">
 
   <div class="fl-ns w-100 mv3 browser">
-    <img src="{{ site.url }}/assets/mc_holiday_survey/2.jpg" class="w-100"/>
+    <img alt="Screenshot of the MailChimp Holiday Survey website" src="{{ site.url }}/assets/mc_holiday_survey/2.jpg" class="w-100"/>
   </div>
 
 </div>
@@ -52,7 +52,7 @@ order: 1
 <div class="fl pv3 pv3-ns">
 
   <div class="fl-ns w-100 mv3 browser">
-    <img src="{{ site.url }}/assets/mc_holiday_survey/3.jpg" class="w-100"/>
+    <img alt="Screenshot of the MailChimp Holiday Survey website" src="{{ site.url }}/assets/mc_holiday_survey/3.jpg" class="w-100"/>
   </div>
 
 </div>

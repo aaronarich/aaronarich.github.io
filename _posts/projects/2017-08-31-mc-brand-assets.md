@@ -41,7 +41,7 @@ order: 0
 <div class="fl pv3 pv3-ns">
 
   <div class="fr-ns w-100 ml3-l mv3 browser">
-    <img src="{{ site.url }}/assets/mc_brand_assets/1.jpg" class="w-100"/>
+    <img alt="Screenshot of the MailChimp brand assets website" src="{{ site.url }}/assets/mc_brand_assets/1.jpg" class="w-100"/>
   </div>
 
 </div>
@@ -49,7 +49,7 @@ order: 0
 <div class="fl pv3 pv3-ns">
 
   <div class="fl-ns w-100 mv3 browser">
-    <img src="{{ site.url }}/assets/mc_brand_assets/2.jpg" class="w-100"/>
+    <img alt="Screenshot of the Mandrill brand assets website" src="{{ site.url }}/assets/mc_brand_assets/2.jpg" class="w-100"/>
   </div>
 
 </div>

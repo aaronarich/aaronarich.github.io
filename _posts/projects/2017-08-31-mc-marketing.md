@@ -41,7 +41,7 @@ order: 6
 <div class="fl pv3 pv3-ns">
 
   <div class="fr-ns w-100 ml3-l mv3 browser">
-    <img src="{{ site.url }}/assets/mc_marketing/1.jpg" class="w-100"/>
+    <img alt="Screenshot of the MailChimp Automation website" src="{{ site.url }}/assets/mc_marketing/1.jpg" class="w-100"/>
   </div>
 
 </div>
@@ -56,7 +56,7 @@ order: 6
   </div>
 
   <div class="fl-ns w-100 w-75-l mv3 browser">
-    <img src="{{ site.url }}/assets/mc_marketing/2.gif" class="w-100"/>
+    <img alt="Screenshot of an interaction on the MailChimp Automation website" src="{{ site.url }}/assets/mc_marketing/2.gif" class="w-100"/>
   </div>
 
 </div>
@@ -71,7 +71,7 @@ order: 6
   </div>
 
   <div class="fl-ns w-100 w-75-l mv3 browser">
-    <img src="{{ site.url }}/assets/mc_marketing/3.jpg" class="w-100"/>
+    <img alt="Screenshot of the MailChimp Research website" src="{{ site.url }}/assets/mc_marketing/3.jpg" class="w-100"/>
   </div>
 
 </div>
@@ -86,7 +86,7 @@ order: 6
   </div>
 
   <div class="fl-ns w-100 w-75-l mv3 browser">
-    <img src="{{ site.url }}/assets/mc_marketing/4.jpg" class="w-100"/>
+    <img alt="Screenshot of the MailChimp Press Resources website" src="{{ site.url }}/assets/mc_marketing/4.jpg" class="w-100"/>
   </div>
 
 </div>

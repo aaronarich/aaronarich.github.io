@@ -41,7 +41,7 @@ order: 2
 <div class="fl pv3 pv3-ns">
 
   <div class="fl-ns w-100 mv3 browser">
-    <img src="{{ site.url }}/assets/mc_atlanta/1.jpg" class="w-100"/>
+    <img alt="Screenshot of the Guide to Atlanta website" src="{{ site.url }}/assets/mc_atlanta/1.jpg" class="w-100"/>
   </div>
 
 </div>
@@ -49,7 +49,7 @@ order: 2
 <div class="fl pv3 pv3-ns">
 
   <div class="fl-ns w-100 w-100 mv3 browser">
-    <img src="{{ site.url }}/assets/mc_atlanta/2.jpg" class="w-100"/>
+    <img alt="Screenshot of the Guide to Atlanta website" src="{{ site.url }}/assets/mc_atlanta/2.jpg" class="w-100"/>
   </div>
 
 </div>
@@ -57,7 +57,7 @@ order: 2
 <div class="fl pv3 pv3-ns">
 
   <div class="fl-ns w-100 w-100 mv3 browser">
-    <img src="{{ site.url }}/assets/mc_atlanta/3.jpg" class="w-100"/>
+    <img alt="Screenshot of the Guide to Atlanta website" src="{{ site.url }}/assets/mc_atlanta/3.jpg" class="w-100"/>
   </div>
 
 </div>
@@ -65,7 +65,7 @@ order: 2
 <div class="fl pv3 pv3-ns">
 
   <div class="fl-ns w-100 w-100 mv3 browser">
-    <img src="{{ site.url }}/assets/mc_atlanta/4.jpg" class="w-100"/>
+    <img alt="Screenshot of the Guide to Atlanta website" src="{{ site.url }}/assets/mc_atlanta/4.jpg" class="w-100"/>
   </div>
 
 </div>

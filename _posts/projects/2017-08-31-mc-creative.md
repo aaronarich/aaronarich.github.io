@@ -41,7 +41,7 @@ order: 5
 <div class="fl pv3 pv3-ns">
 
   <div class="fr-ns w-100 ml3-l mv3 browser">
-    <img src="{{ site.url }}/assets/mc_creative/1.jpg" class="w-100"/>
+    <img alt="Screenshot of the MailChimp Creative website" src="{{ site.url }}/assets/mc_creative/1.jpg" class="w-100"/>
   </div>
 
 </div>
@@ -49,7 +49,7 @@ order: 5
 <div class="fl pv3 pv3-ns">
 
   <div class="fl-ns w-100 mv3 browser">
-    <img src="{{ site.url }}/assets/mc_creative/2.gif" class="w-100"/>
+    <img alt="Screenshot of a flashy hover-state on the MailChimp Creative website" src="{{ site.url }}/assets/mc_creative/2.gif" class="w-100"/>
   </div>
 
 </div>
