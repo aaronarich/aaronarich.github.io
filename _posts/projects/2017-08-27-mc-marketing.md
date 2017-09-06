@@ -27,6 +27,7 @@ order: 6
 <div class="fr w-100 w-75-l mb0-l mb3">
   This is a collection of a few various marketing pages that I built out for the MailChimp marketing website. While each of these pages has a unique objective, the design and development focus was on consistency with using our new pattern library (iconography, colors, and layout) that was launched in 2013.
   <br>
+  <br>
   <dl class="lh-title mv2">
     <dt class="dib b">Built with:</dt>
     <dd class="dib ml0">Middleman, HAML, SCSS, PHP, and JavaScript</dd>
