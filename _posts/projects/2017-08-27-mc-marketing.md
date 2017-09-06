@@ -1,12 +1,13 @@
 ---
 title: MailChimp Marketing
+date: 2017-08-27 00:00:00 Z
+permalink: "/projects/mailchimp-marketing/"
+categories:
+- projects
 description: Project Collection - MailChimp
 layout: project
-categories: projects
 author: Aaron A. Rich
-date:   2017-08-27
 projects: projects
-permalink: /projects/mailchimp-marketing/
 order: 6
 ---
 

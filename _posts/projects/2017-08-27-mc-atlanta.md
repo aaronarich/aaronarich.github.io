@@ -1,12 +1,13 @@
 ---
 title: Guide to Atlanta
+date: 2017-08-27 00:00:00 Z
+permalink: "/projects/mailchimp-atlanta/"
+categories:
+- projects
 description: Project - MailChimp
 layout: project
-categories: projects
 author: Aaron A. Rich
-date:   2017-08-27
 projects: projects
-permalink: /projects/mailchimp-atlanta/
 order: 2
 ---
 

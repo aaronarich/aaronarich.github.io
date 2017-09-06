@@ -1,12 +1,13 @@
 ---
 title: Brand Assets
+date: 2017-08-27 00:00:00 Z
+permalink: "/projects/mailchimp-brand-assets/"
+categories:
+- projects
 description: Project Collection - MailChimp
 layout: project
-categories: projects
 author: Aaron A. Rich
-date:   2017-08-27
 projects: projects
-permalink: /projects/mailchimp-brand-assets/
 order: 0
 ---
 

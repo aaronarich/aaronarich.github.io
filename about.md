@@ -1,7 +1,7 @@
 ---
-layout: about
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: about
 ---
 
 I’m originally from South Carolina, but I’ve been working as a front-end developer in Atlanta since 2012. Some of what I enjoy most about my profession is collaborating with others in a team setting, working on projects that are challenging, and constantly learning how to improve my workflow.
