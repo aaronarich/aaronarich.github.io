@@ -11,7 +11,7 @@ projects: projects
 order: 6
 ---
 
-<div class="fl w-100 w-25-l mt0-l mt3">
+<div class="fl w-100 w-25-l pt1">
   <dl class="lh-title mt0">
     <dt class="f6 b">Project Role</dt>
     <dd class="ml0">Developer</dd>
@@ -26,7 +26,6 @@ order: 6
 
 <div class="fr w-100 w-75-l mb0-l mb3">
   This is a collection of a few various marketing pages that I built out for the MailChimp marketing website. While each of these pages has a unique objective, the design and development focus was on consistency with using our new pattern library (iconography, colors, and layout) that was launched in 2013.
-  <br>
   <br>
   <dl class="lh-title mv2">
     <dt class="dib b">Built with:</dt>
