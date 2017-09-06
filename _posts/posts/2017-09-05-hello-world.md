@@ -1,10 +1,11 @@
 ---
 title: Hello World
-date: 2017-09-05 00:00:00 Z
+date: {}
 categories:
-- posts
+  - posts
 author: Aaron A. Rich
 layout: post
+published: true
 ---
 
 Welcome to the latest edition of my site, which just went live over Labor Day weekend! I've been hard at work gathering up projects to showcase, reiterating on layout design, and spending probably the most time deciding which platform/hosting I wanted to use. There's a lot of things to consider when building any website, but it always seems to be a bit more challenging to me when deciding on these things for my personal work.
@@ -17,13 +18,13 @@ In the interest of sharing knowledge and process, I want to use this post to giv
 
 * **[Abstract](https://www.goabstract.com/) -** this is a version control tool used in conjunction with Sketch. They launched their product just as I was beginning to learn Sketch, and I found it helpful for syncing my projects across my laptop and desktop. The branching feature was also great for wanting to create one-off explorations.
 
-* **[SkyFonts](https://skyfonts.com/) -** when deciding on typography for my site, I found that it's a bit of a pain to download font-families to my local computer, import them, and then test them out in Sketch. SkyFonts addresses that problem directly, by connecting the MacOS Font Book to Google Fonts, and a few other cloud-hosted font services. No more downloading, just pick the fonts you want to try out and they're synced.
+* **[SkyFonts](https://skyfonts.com/) -** when deciding on typography for my site, I found that it's a bit of a pain to download font-families to my local computer, import them, and then test them out in Sketch. SkyFonts addresses that problem directly by connecting the MacOS Font Book to Google Fonts, and a few other cloud-hosted font services. No more downloading, just pick the fonts you want to try out and they're synced.
 
 ### Development
 
 * **[Jekyll](https://jekyllrb.com/) -** I decided to go with Jekyll because I'm familiar with static site generators from my past work. Jekyll is pretty lightweight for building static pages, but it also has a blogging aspect to it (which I hope to utilize frequently). Jekyll not only has an intuitive setup process, but it also integrates directly with several cloud-based CMSs as well as hosting providers... more about that below.
 
-* **[Tachyons CSS Framework](http://tachyons.io/) -** it's so satisfying to design on a grid and have a nice rhythm between text and page elements. I've assembled my own grid layouts in the past, but for this site I wanted to use something more tested and robust. For that, I turned to Tachyons, developed in large part by [Adam Morse](https://github.com/mrmrs). There's also a SASS-specific fork the project which I used in my Jekyll project. You can find that here on [Github](https://github.com/tachyons-css/tachyons-sass).
+* **[Tachyons CSS Framework](http://tachyons.io/) -** it's so satisfying to design on a grid and have a nice rhythm between text and page elements. I've assembled my own grid layouts in the past, but for this site I wanted to use something more tested and robust. For that, I turned to Tachyons, developed in large part by [Adam Morse](https://github.com/mrmrs). There's also a SASS-specific fork of the project which I used in my Jekyll site. You can find that here on [Github](https://github.com/tachyons-css/tachyons-sass).
 
 * **[Google Fonts, Roboto](https://fonts.google.com/specimen/Roboto) -** I decided to go with one of my favorite sans-serif font family seen on the web today, Roboto. This font was designed by [Christian Robertson](http://christianrobertson.com/) and is served through Google Fonts.
 
