@@ -17,7 +17,7 @@ In the interest of sharing knowledge and process, I want to use this post to giv
 
 * **[Abstract](https://www.goabstract.com/) -** this is a version control tool used in conjunction with Sketch. They launched their product just as I was beginning to learn Sketch, and I found it helpful for syncing my projects across my laptop and desktop. The branching feature was also great for wanting to create one-off explorations.
 
-* **[SkyFonts](https://skyfonts.com/) -** when deciding on typography for my site, I foudn that it's a bit of a pain to download font-families to my local computer, import them, and then test them out in Sketch. SkyFonts addresses that problem directly, by connecting the MacOS Font Book to Google Fonts, and a few other cloud-hosted font services. No more downloading, just pick the fonts you want to try out and they're synced.
+* **[SkyFonts](https://skyfonts.com/) -** when deciding on typography for my site, I found that it's a bit of a pain to download font-families to my local computer, import them, and then test them out in Sketch. SkyFonts addresses that problem directly, by connecting the MacOS Font Book to Google Fonts, and a few other cloud-hosted font services. No more downloading, just pick the fonts you want to try out and they're synced.
 
 ### Development
 
