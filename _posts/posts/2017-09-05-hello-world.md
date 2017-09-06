@@ -2,10 +2,9 @@
 title: Hello World
 date: 2017-09-05 00:00:00 Z
 categories:
-  - posts
+- posts
 author: Aaron A. Rich
 layout: post
-published: true
 ---
 
 Welcome to the latest edition of my site, which just went live over Labor Day weekend! I've been hard at work gathering up projects to showcase, reiterating on layout design, and spending probably the most time deciding which platform/hosting I wanted to use. There's a lot of things to consider when building any website, but it always seems to be a bit more challenging to me when deciding on these things for my personal work.
