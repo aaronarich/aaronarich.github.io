@@ -130,6 +130,15 @@ pre {
 /**
  * Odds and Ends
  */
+.albumArt0, .albumArt1, .albumArt2, .albumArt3 {
+  filter: grayscale(100%);
+  transition: 0.3s ease;
+
+  &:hover {
+    filter: none;
+  }
+}
+
 .body-max {
   max-width: 1440px;
 }

@@ -29,19 +29,19 @@
                'format=json',
         dataType : 'jsonp',
         success : function(data) {
-            $(".albumArt0").html('<img class="w-100 ba b--black-10" src="' + data.topalbums.album[0].image[3]['#text'] +'" />');
+            $(".albumArt0").html('<a href="' + data.topalbums.album[0].url + '">' + '<img class="w-100 ba b--black-10" src="' + data.topalbums.album[0].image[3]['#text'] +'" />' + '</a>');
             $(".albumName0").html('<a href="' + data.topalbums.album[0].url + '">' + data.topalbums.album[0].name + '</a>');
             $(".albumArtist0").html('by ' + '<a href="' + data.topalbums.album[0].artist.url + '">' + data.topalbums.album[0].artist.name + '</a>');
 
-            $(".albumArt1").html('<img class="w-100 ba b--black-10" src="' + data.topalbums.album[1].image[3]['#text'] +'" />');
+            $(".albumArt1").html('<a href="' + data.topalbums.album[0].url + '">' + '<img class="w-100 ba b--black-10" src="' + data.topalbums.album[1].image[3]['#text'] +'" />' + '</a>');
             $(".albumName1").html('<a href="' + data.topalbums.album[1].url + '">' + data.topalbums.album[1].name + '</a>');
             $(".albumArtist1").html('by ' + '<a href="' + data.topalbums.album[1].artist.url + '">' + data.topalbums.album[1].artist.name + '</a>');
 
-            $(".albumArt2").html('<img class="w-100 ba b--black-10" src="' + data.topalbums.album[2].image[3]['#text'] +'" />');
+            $(".albumArt2").html('<a href="' + data.topalbums.album[0].url + '">' + '<img class="w-100 ba b--black-10" src="' + data.topalbums.album[2].image[3]['#text'] +'" />' + '</a>');
             $(".albumName2").html('<a href="' + data.topalbums.album[2].url + '">' + data.topalbums.album[2].name + '</a>');
             $(".albumArtist2").html('by ' + '<a href="' + data.topalbums.album[2].artist.url + '">' + data.topalbums.album[2].artist.name + '</a>');
 
-            $(".albumArt3").html('<img class="w-100 ba b--black-10" src="' + data.topalbums.album[3].image[3]['#text'] +'" />');
+            $(".albumArt3").html('<a href="' + data.topalbums.album[0].url + '">' + '<img class="w-100 ba b--black-10" src="' + data.topalbums.album[3].image[3]['#text'] +'" />' + '</a>');
             $(".albumName3").html('<a href="' + data.topalbums.album[3].url + '">' + data.topalbums.album[3].name + '</a>');
             $(".albumArtist3").html('by ' + '<a href="' + data.topalbums.album[3].artist.url + '">' + data.topalbums.album[3].artist.name + '</a>');
         },
