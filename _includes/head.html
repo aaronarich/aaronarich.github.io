@@ -6,10 +6,10 @@
   <title>{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}?{{site.time | date: '%s%N'}}">
   <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}?{{site.time | date: '%s%N'}}">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 
   {% if page.url == "/" or page.url == "/about/" %}
@@ -24,7 +24,7 @@
         data : 'method=user.gettopalbums&' +
                'user=aarich21&' +
                'period=7day&' +
-               'limit=5&' +
+               'limit=4&' +
                'api_key=0cccb1a2aebc9cd70e27d1164726192c&' +
                'format=json',
         dataType : 'jsonp',
