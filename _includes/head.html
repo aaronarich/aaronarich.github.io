@@ -24,14 +24,26 @@
         data : 'method=user.gettopalbums&' +
                'user=aarich21&' +
                'period=7day&' +
-               'limit=1&' +
+               'limit=5&' +
                'api_key=0cccb1a2aebc9cd70e27d1164726192c&' +
                'format=json',
         dataType : 'jsonp',
         success : function(data) {
-            $(".albumArt").html('<img class="w-100 ba b--black-10" src="' + data.topalbums.album[0].image[3]['#text'] +'" />');
-            $(".albumName").html('<a href="' + data.topalbums.album[0].url + '">' + data.topalbums.album[0].name + '</a>');
-            $(".albumArtist").html('by ' + '<a href="' + data.topalbums.album[0].artist.url + '">' + data.topalbums.album[0].artist.name + '</a>');
+            $(".albumArt0").html('<img class="w-100 ba b--black-10" src="' + data.topalbums.album[0].image[3]['#text'] +'" />');
+            $(".albumName0").html('<a href="' + data.topalbums.album[0].url + '">' + data.topalbums.album[0].name + '</a>');
+            $(".albumArtist0").html('by ' + '<a href="' + data.topalbums.album[0].artist.url + '">' + data.topalbums.album[0].artist.name + '</a>');
+
+            $(".albumArt1").html('<img class="w-100 ba b--black-10" src="' + data.topalbums.album[1].image[3]['#text'] +'" />');
+            $(".albumName1").html('<a href="' + data.topalbums.album[1].url + '">' + data.topalbums.album[1].name + '</a>');
+            $(".albumArtist1").html('by ' + '<a href="' + data.topalbums.album[1].artist.url + '">' + data.topalbums.album[1].artist.name + '</a>');
+
+            $(".albumArt2").html('<img class="w-100 ba b--black-10" src="' + data.topalbums.album[2].image[3]['#text'] +'" />');
+            $(".albumName2").html('<a href="' + data.topalbums.album[2].url + '">' + data.topalbums.album[2].name + '</a>');
+            $(".albumArtist2").html('by ' + '<a href="' + data.topalbums.album[2].artist.url + '">' + data.topalbums.album[2].artist.name + '</a>');
+
+            $(".albumArt3").html('<img class="w-100 ba b--black-10" src="' + data.topalbums.album[3].image[3]['#text'] +'" />');
+            $(".albumName3").html('<a href="' + data.topalbums.album[3].url + '">' + data.topalbums.album[3].name + '</a>');
+            $(".albumArtist3").html('by ' + '<a href="' + data.topalbums.album[3].artist.url + '">' + data.topalbums.album[3].artist.name + '</a>');
         },
         error : function(code, message){
             $('.albumName').html('Error Code: ' + code + ', Error Message: ' + message);
