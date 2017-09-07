@@ -12,7 +12,31 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 
-  {% if page.url == "/" %}
-    <script type="text/javascript">{% include jquery_slim.js %}</script>
+  {% if page.url == "/" or page.url == "/about/" %}
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  {% endif %}
+
+  {% if page.url == "/about/" %}
+    <script>
+      $.ajax({
+        type : 'GET',
+        url : 'https://ws.audioscrobbler.com/2.0/',
+        data : 'method=user.gettopalbums&' +
+               'user=aarich21&' +
+               'period=7day&' +
+               'limit=1&' +
+               'api_key=0cccb1a2aebc9cd70e27d1164726192c&' +
+               'format=json',
+        dataType : 'jsonp',
+        success : function(data) {
+            $(".albumArt").html('<img class="w-100 ba b--black-10" src="' + data.topalbums.album[0].image[3]['#text'] +'" />');
+            $(".albumName").html('<a href="' + data.topalbums.album[0].url + '">' + data.topalbums.album[0].name + '</a>');
+            $(".albumArtist").html('by ' + '<a href="' + data.topalbums.album[0].artist.url + '">' + data.topalbums.album[0].artist.name + '</a>');
+        },
+        error : function(code, message){
+            $('.albumName').html('Error Code: ' + code + ', Error Message: ' + message);
+        }
+      });
+    </script>
   {% endif %}
 </head>
