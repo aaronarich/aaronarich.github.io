@@ -20,7 +20,12 @@
 /**
  * Basic styling
  */
- html {
+::selection {
+  background-color: $brand-color;
+  color: $white-color;
+}
+
+html {
    height: 100%;
    box-sizing: border-box;
  }
