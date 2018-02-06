@@ -67,7 +67,7 @@
   padding: $spacing-unit 0;
   @include relative-font-size(0.938);
   color: $white-color;
-  background: linear-gradient(90deg, #04403A 25%, #24735C);
+  background: linear-gradient(90deg, $brand-color-dark 25%, $brand-color);
   position: absolute;
   right: 0;
   bottom: 0;
@@ -145,7 +145,7 @@
 .post-title {
   @include relative-font-size(6);
   font-weight: bold;
-  background: linear-gradient(90deg, #24735C, #04403A 30%);
+  background: linear-gradient(90deg, $brand-color, $brand-color-dark 30%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
